@@ -5,7 +5,7 @@
     <meta name=”viewport” content=”width=device-width, initial-scale=1">
     <title><%= full_title(yield(:title)) %></title><!-- from application_helper.rb -->
     <%= render 'layouts/site_default' %>
-    <%= render 'layouts/shim' %>
+    <%= render 'layouts/shim' %><!-- for IE - compatibility -->
   </head>
   <body>
     <%= render 'layouts/header' %>

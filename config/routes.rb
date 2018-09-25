@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'guests/new'
+  get 'guests/create'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   
   # Page Navigation
@@ -22,5 +24,11 @@ Rails.application.routes.draw do
   get '/services/design', to: 'navpages#design', as: 'design'
   
   get '/services/consult', to: 'navpages#consult', as: 'consult'
+  
+  get '/new', to: 'guests#new'
+  
+  # post '/reqinfo', to: 'navpages#reqinfo'
+  
+  post '/new', to: 'guests#make', as: 'reqinfo'
   
 end

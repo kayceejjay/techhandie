@@ -36,6 +36,12 @@ body {
   }
 }
 
+// .container-fluid {
+//   display: inline;  
+// }
+
+/* added to address problems w/ bootstrap-sass */
+
 section {
   overflow: auto;
 }
@@ -123,7 +129,6 @@ p {
 
 /* header */
 
-
 #logo {
   float: left;
   margin-right: 10px;
@@ -148,7 +153,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid black;
-  color: white;
+  color: $charcoal;
   
   small {
     float: center;
@@ -165,7 +170,7 @@ footer {
 
 
   a {
-    color: white;
+    color: $charcoal;
   
     &:hover {
     color: $grey;
@@ -175,7 +180,6 @@ footer {
 }
 
 /* end - footer */
-
 
 /* forms */
 
@@ -191,3 +195,49 @@ input {
 }
 
 /* end - forms */
+
+/* email table */
+
+.tg  {
+  border-collapse:collapse;
+  border-spacing:0;
+  
+}
+
+.tg td{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+}
+
+.tg th{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+}
+
+.tg .tg-ohy5{
+  font-size:14px;
+  border-color:inherit;
+  text-align:left
+}
+
+.tg .tg-zd5i{
+  font-size:14px;
+  border-color:inherit;
+  text-align:left;
+  vertical-align:top
+}
+
+/* end - email table */

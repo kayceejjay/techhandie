@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'from@example.com'
+  default = {from: 'noreply@techhandie.com', to: 'admin@techhandie.com', subject: "Website Visitors Request for Information"}
   layout 'mailer'
 end

@@ -25,4 +25,11 @@ class NavpagesController < ApplicationController
   def services
   end
   
+
+  private
+
+  # def guest_params
+  #   params.require(:guest).permit(:fname, :lname, :phone, :email, :interest)
+  # end
+  
 end

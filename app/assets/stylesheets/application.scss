@@ -15,9 +15,9 @@
  */
 
 /* Styling */
-
-@import "bootstrap-sprockets/modal";
-@import "bootstrap/modal";
+  
+@import "bootstrap-sprockets"; /* load sprockets; needed for directives */
+@import "bootstrap"; /* load bootstrap */
 
 /* Fonts Used */
 

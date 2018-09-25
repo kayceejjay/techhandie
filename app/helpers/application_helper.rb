@@ -1,4 +1,35 @@
 module ApplicationHelper
+  
+  # def entry
+  #   guest = {fname: "0",lname: "0",phone: "0", email: "0", interest: "None"}
+  #   guest
+  # end
+  
+  # attr_accessor :name, :phone, :email, :interest
+  # class User < ActiveRecord::Base
+    
+  #   def initialize
+  #     @name = name
+  #     @phone = phone
+  #     @email = email
+  #     @interest = interest
+  #     @entry = {name: nil, phone: nil, email: nil, interest: nil}
+  #   end
+
+  #   def get_entry
+  #     @entry[:name] = @name
+  #     @entry[:phone] = @phone
+  #     @entry[:email] = @email
+  #     @entry[:interest] = @interest
+  #     @entry
+  #   end
+
+  #   def get_binding
+  #     binding
+  #   end
+    
+  # end # User
+    
     def full_title(page_title = '')
         base_title = "TechHandie Corp."
         if page_title.empty?
